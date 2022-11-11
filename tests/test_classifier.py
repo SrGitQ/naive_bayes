@@ -3,7 +3,7 @@ from src.na_ba import NaiveBayes
 
 class TestClassifier(TestCase):
 
-    def test_bag_words(self):
+    def test_bag_words(self, s):
         train_1 = {'text':'Hoy hice la tarea, porque soy una persona muy responsable, me gusta hacer tarea, hacer la taarea es bueno, creo que hacer tarea me relaja', 'status':'positive'}
         train_2 = {'text':'Hoy no hice tarea, no me gusta, aburrido', 'status':'negative'}
 
